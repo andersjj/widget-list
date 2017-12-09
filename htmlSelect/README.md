@@ -1,6 +1,6 @@
 # htmlSelect
 
-htmlSelect is a service that allows you to pass in JSON document that contains:
+htmlSelect is a service that allows you to pass in a JSON document that contains:
 
 1. URL of document that you want to extract information from.
 2. An array of `selectors` that include:
@@ -28,7 +28,7 @@ htmlSelect is a service that allows you to pass in JSON document that contains:
 ### Usage
 Simply do an HTTP POST to 
 ```
-https://www.widget-list.com:8088
+http://www.widget-list.com:8088
 ```
 
 With the JSON above as the body and you will return a JSON document with one attribute for each selector passed in.  Each attribute in the return JSON will have the value obtained by the selector.
