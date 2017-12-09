@@ -25,7 +25,7 @@ htmlSelect is a service that allows you to pass in JSON document that contains:
 }
 ```
 
-###Usage
+### Usage
 Simply do an HTTP POST to 
 ```
 https://www.widget-list.com:8088
