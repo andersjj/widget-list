@@ -7,6 +7,8 @@ htmlSelect is a service that allows you to pass in a JSON document that contains
   * `selector` jQuery like selector to select HTML DOM elements
   * `name` attribute for return JSON
   * `attribute` optional, if included, will return the value of `attribute` in the selected HTML element.  If not included will return the HTML of the selected element.
+  * `skip` will skip the first _n_ of the selected elements in the return JSON
+  * `limit` will only send back the first _n_ of the selected elements
 
 ``` 
 {
